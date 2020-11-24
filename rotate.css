@@ -6,6 +6,7 @@
 html,
 body {
 	height: 100%;
+	font-family: '兰亭';
 }
 
 body {
@@ -70,9 +71,12 @@ body {
 	width: 100px;
 	height: 120px;
 }
+#drag-container p.bg{
+	top: 100%;
+}
 
 #drag-container p.text {
-	top: 100%;
+	top: 0;
 	left: 50%;
 }
 
